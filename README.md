@@ -10,6 +10,10 @@ scala_java_example: https://github.com/QingGo/scala_java_example
 
 ### Usage:
 ``` bash
-make build
+# build java project first then build scala, should use at first build.
+make build-java-scala
+# or build scala project first then build java
+make build-scala-java
+# run
 make run
 ```
